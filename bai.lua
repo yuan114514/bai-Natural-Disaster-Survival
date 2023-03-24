@@ -1,3 +1,7 @@
+msg = Instance.new ("Hint")
+		msg.Parent = game.Workspace
+		msg.Text = "白脚本牛逼666"
+
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
 local Window = Library.CreateLib("白--自然灾害", "BloodTheme")
