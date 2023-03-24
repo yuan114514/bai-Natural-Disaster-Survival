@@ -16,7 +16,7 @@ end)
 
 local Tab2 = Window:NewTab("整人")
 
-local Section = Tab:NewSection("脚本")
+local Section2 = Tab2:NewSection("脚本")
 
 Section2:NewButton("旋转", "这里没有文本", function()
 --[[Fling GUI]]--
@@ -39,7 +39,7 @@ end)
 
 local Tab3 = Window:NewTab("其他")
 
-local Section3 = Tab:NewSection("脚本")
+local Section3 = Tab3:NewSection("脚本")
 
 Section3:NewButton("直升机", "这里没有文本", function()
 --BROUGHT TO YOU BY RSCRIPTS.NET--
