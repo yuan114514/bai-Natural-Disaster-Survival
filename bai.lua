@@ -45,7 +45,6 @@ local Section3 = Tab3:NewSection("脚本")
 
 Section3:NewButton("直升机", "这里没有文本", function()
 --BROUGHT TO YOU BY RSCRIPTS.NET--
-
 if game.Players.LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigType.R6 then
 spawn(function()
 local speaker = game.Players.LocalPlayer
