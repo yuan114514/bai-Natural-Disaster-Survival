@@ -1,7 +1,3 @@
-msg = Instance.new ("Hint")
-		msg.Parent = game.Workspace
-		msg.Text = "白脚本牛逼666"
-
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
 local Window = Library.CreateLib("白--自然灾害", "BloodTheme")
@@ -34,7 +30,9 @@ loadstring(game:HttpGet(('https://pastefy.ga/8BGGaMpP/raw'),true))()
 end)
 
 Section2:NewButton("杀死全部人", "这里没有文本", function()
-game.Players.LocalPlayer.Character.Humanoid.LocalPlayer.Health = 0
+for i,v in pairs(game.Players:GetChildren()) do
+v.Character:BreakJoints()
+end
 end)
 
 Section2:NewButton("服务器管理", "这里没有文本", function()
