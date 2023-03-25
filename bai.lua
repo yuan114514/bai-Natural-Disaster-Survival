@@ -43,6 +43,10 @@ local Tab3 = Window:NewTab("其他")
 
 local Section3 = Tab3:NewSection("脚本")
 
+Section3:NewButton("c00lkidd GUI", "这里没有文本", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/yuan114514/c00lkidd/main/TORnb666%20%20%20%20%20%20%20%F0%9F%99%8C%E2%9C%8C%E2%9C%8C%F0%9F%92%98%F0%9F%92%96%F0%9F%96%A4%F0%9F%A7%A1%F0%9F%91%A8%E2%80%8D%E2%9D%A4%EF%B8%8F%E2%80%8D%F0%9F%92%8B%E2%80%8D%F0%9F%91%A8%F0%9F%91%A9%E2%80%8D%E2%9D%A4%EF%B8%8F%E2%80%8D%F0%9F%92%8B%E2%80%8D%F0%9F%91%A9%F0%9F%91%A9%E2%80%8D%E2%9D%A4%EF%B8%8F%E2%80%8D%F0%9F%92%8B%E2%80%8D%F0%9F%91%A8%F0%9F%91%A9%E2%80%8D%E2%9D%A4%EF%B8%8F%E2%80%8D%F0%9F%92%8B%E2%80%8D%F0%9F%91%A8%F0%9F%92%8C%F0%9F%8C%9D%F0%9F%98%98%F0%9F%98%98%F0%9F%98%87%F0%9F%98%B2%F0%9F%98%9E%F0%9F%98%9B%F0%9F%A5%B8%F0%9F%91%B9%F0%9F%91%B9%F0%9F%A4%A7%F0%9F%A5%B6%F0%9F%91%BF.lua'))()
+end)
+
 Section3:NewButton("直升机", "这里没有文本", function()
 --BROUGHT TO YOU BY RSCRIPTS.NET--
 if game.Players.LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigType.R6 then
