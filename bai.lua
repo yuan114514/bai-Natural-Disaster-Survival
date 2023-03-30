@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
-local Window = Library.CreateLib("白--自然灾害", "BloodTheme")
+local Window = Library.CreateLib("青--自然灾害", "BloodTheme")
 
 local Tab = Window:NewTab("传送")
 
